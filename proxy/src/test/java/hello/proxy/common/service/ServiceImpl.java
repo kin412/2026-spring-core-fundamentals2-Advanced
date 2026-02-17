@@ -7,11 +7,11 @@ public class ServiceImpl implements ServiceInterface{
 
     @Override
     public void find() {
-        log.info("save 호출");
+        log.info("find 호출");
     }
 
     @Override
     public void save() {
-        log.info("find 호출");
+        log.info("save 호출");
     }
 }
